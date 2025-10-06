@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="healthcheck.client/healthcheck.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="HealthCheck.Server/HealthCheck.Server.csproj" />
+</Solution>
