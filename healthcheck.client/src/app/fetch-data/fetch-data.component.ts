@@ -13,7 +13,7 @@ interface WeatherForecast {
   selector: 'app-fetch-data',
   standalone: false,
   templateUrl: './fetch-data.component.html',
-  styleUrl: './fetch-data.component.css'
+  styleUrl: './fetch-data.component.scss'
 })
 export class FetchDataComponent {
   public forecasts?: WeatherForecast[] = [];
