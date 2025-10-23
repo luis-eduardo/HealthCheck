@@ -1,4 +1,10 @@
 <app-nav-menu></app-nav-menu>
+@if (this.isOffline | async; as offline) {
+<div class="alert alert-warning">
+  <strong>WARNING</strong>: You are currently offline.
+</div>
+}
+
 <div class="container">
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
